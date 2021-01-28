@@ -33,7 +33,7 @@ setup(
     install_requires=["sklearn", "matplotlib", "seaborn", "pandas"],
     entry_points={
         'console_scripts': [
-            'confusionDraw=confusion.display:main'
+            'confusionDraw = display:main'
         ],
     },
 )

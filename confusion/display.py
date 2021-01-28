@@ -10,7 +10,7 @@ import random
 from sklearn.metrics import confusion_matrix
 
 sys.path.append(os.getcwd())
-from confusion.utils.Draw import ConfusionMatrixHeatMap as CH
+from utils.Draw import ConfusionMatrixHeatMap as CH
 
 
 def draw(y_t, y_p, labels, font, c_map="YlGnBu", save=""):
